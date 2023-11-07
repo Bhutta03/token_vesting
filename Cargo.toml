@@ -1,0 +1,10 @@
+[package]
+name = "vesting_contract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+near-sdk = "3.1"
+borsh="0.8"
+[lib]
+crate-type = ["cdylib", "rlib"]
