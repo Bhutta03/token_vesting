@@ -1,2 +1,2 @@
 # token_vesting
-This smart contract is rust implementation of a token_vesting contract for the NEAR blockchain. The contract allows an owner to vest tokens to a beneficiary, with certain restrictions on the amount that can be vested per transaction and in total.
+This smart contract is a rust implementation of a token_vesting for the NEAR blockchain. The contract allows an owner to vest tokens to a beneficiary, with certain restrictions on both the per-vesting amount and the total vesting amount. The contract can be initialized with specific parameters, and the owner has the ability to vest tokens to the specified beneficiary while adhering to these limits.
